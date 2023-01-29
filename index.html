@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+    <title>challenge</title>
+</head>
+<body class="fondo">
+    <div class="zonaLogo">
+        <img class="logo" src="imagenes/Vector.png" alt="logo">
+    </div>
+    
+    <div class="cuadrotexto">
+        <textarea class="textoIngresar" placeholder="Ingrese el texto aquí" name="" id="texto2"></textarea>
+    </div>
+
+    <div class="dosbotones">
+        <div class="boton1">
+            <input type="submit" value="Encriptar" class="btnEncriptar" onclick="encriptar()">
+        </div>
+        <div class="boton2">
+            <input type="submit" value="Desencriptar" class="btnDesencriptar" onclick="desencriptar()">
+        </div>
+    </div>
+
+    <div class="resultado">
+        <img class="munieco" id="muniecos" src="imagenes/Muñeco.png" alt="muñeco">
+        <div class="dialogoPrincipal">
+            <p id="text1" class="dialogo1">Ningún mensaje fue encontrado</p>
+            <textarea class="dialogo2" id="text2">Ingresa el texto que desees encriptar o desencriptar</textarea>
+                       
+        </div>
+        <button id="copiar" type="button" name="button" onclick="copiar()">!copiar¡</button>
+       
+        
+    
+    </div>
+
+    
+</body>
+</html>
